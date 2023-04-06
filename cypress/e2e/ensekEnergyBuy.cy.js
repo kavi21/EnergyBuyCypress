@@ -10,13 +10,13 @@ describe('ensek energy corp Energy Buy page', () => {
     energyBuyPage.getElectricityAvailableUnit()
     energyBuyPage.getOilAvailableUnit()
   })
-  it.only('Buy some units of Gas,Verify the success message,Verify the units after sale and Click Reset displays old value ', () => {
+  it('Buy some units of Gas,Verify the success message,Verify the units after sale and Click Reset displays old value ', () => {
     energyBuyPage.buyGasSuccess();
   })
-  it.only('Buy some units of Electricity,Verify the success message,Verify the units after sale and Click Reset displays old value ', () => {
+  it('Buy some units of Electricity,Verify the success message,Verify the units after sale and Click Reset displays old value ', () => {
     energyBuyPage.buyElectricitySuccess();
   })
-  it.only('Buy some units of Oil,Verify the success message,Verify the units after sale and Click Reset displays old value ', () => {
+  it('Buy some units of Oil,Verify the success message,Verify the units after sale and Click Reset displays old value ', () => {
     energyBuyPage.buyOilSuccess();
   })
   it('EK0030,EK0035,EK0037,EK0042,EK0043,EK0044,EK0045,EK0046,EK0048,EK0049_buy Gas energy less than available unit', () => {
