@@ -31,4 +31,5 @@ The system allows purchasing of 0, negative quantities, and invalid characters.
 Negative quantity purchases also allow changing the existing quantity.
 
 Sale confirm Automation test added for Oil,Gas and Electrity.Manual test cases not for this case
-No time to do that
+& Home page and About us page Manual testcases are not in the sheet.
+There's no time to finish.
