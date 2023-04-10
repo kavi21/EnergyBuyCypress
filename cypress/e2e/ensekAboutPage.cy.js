@@ -1,5 +1,5 @@
 import homePage from "../page/homePage";
-import aboutPage from "../page/aboutpage";
+import aboutPage from "../page/aboutPage";
 describe("ENSEK  About us", () => {
     beforeEach(() => {
         aboutPage.visit('/')
@@ -7,10 +7,10 @@ describe("ENSEK  About us", () => {
     })
     //MORE TESTS CAN ADDED AFTER MORE FEATURES ADDED
     it('Verify AboutPage Header', () => {
-        aboutpage.pageHeader();
+        aboutPage.pageHeader();
     })
     it('Verify AboutPage Link Navigates to main Ensek Page', () => {
-        aboutpage.PageNavigateLink();
+        aboutPage.PageNavigateLink();
         //cy.catchExpectedErrors();
     })
 })
