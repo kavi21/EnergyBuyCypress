@@ -1,4 +1,4 @@
-class AboutPage {
+class aboutpage {
     visit() {
         cy.log("Opening browser")
         cy.viewport('macbook-15')
@@ -39,4 +39,4 @@ cy.url().should('eq', 'https://ensek.com/about-us')
 
 
 
-export default new AboutPage()
+export default new aboutpage()
